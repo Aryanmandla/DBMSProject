@@ -1,0 +1,57 @@
+.add-criminal-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.add-criminal-form {
+    width: 400px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.add-criminal-form h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.add-criminal-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.add-criminal-form div {
+    margin-bottom: 15px;
+}
+
+.add-criminal-form label {
+    font-weight: bold;
+}
+
+.add-criminal-form input[type='text'],
+.add-criminal-form input[type='number'],
+.add-criminal-form input[type='date'],
+.add-criminal-form textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.add-criminal-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.add-criminal-form button:hover {
+    background-color: #0056b3;
+}
